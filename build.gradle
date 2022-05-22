@@ -29,3 +29,7 @@ jacocoTestReport {
         html.required.set(true)
     }
 }
+
+test {
+    useJUnitPlatform()
+}
